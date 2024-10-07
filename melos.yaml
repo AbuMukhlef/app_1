@@ -1,0 +1,9 @@
+name: app_1
+
+packages:
+  - apps/**
+  - packages/**
+
+scripts:
+  analyze:
+    exec: dart analyze .
